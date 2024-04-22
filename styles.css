@@ -1,3 +1,14 @@
-.opulence { 
+.opulence { font-size: x-large; 
+font-family:Georgia, 'Times New Roman', Times, serif;
+ background-color: #f9f; 
+color: whitesmoke;
+}
 
+.opulence2 { font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: #a5f;
+color: white;
+}
+
+.bilde {float: left;
+margin-right: 20px;
 }
