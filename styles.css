@@ -2,13 +2,15 @@
 font-family:Georgia, 'Times New Roman', Times, serif;
  background-color: #f9f; 
 color: whitesmoke;
+text-align: center;
 }
 
 .opulence2 { font-family: Georgia, 'Times New Roman', Times, serif;
 background-color: #a5f;
 color: white;
+text-align: center;
 }
 
-.bilde {float: left;
-margin-right: 20px;
+.bilde {display: flex;
+    justify-content: center;
 }
