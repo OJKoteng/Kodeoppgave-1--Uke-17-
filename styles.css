@@ -19,10 +19,11 @@ table { width: 100%;
 border-collapse: collapse;
 }
 
-th, td {border: 3px solid #dddddd;
+th, td {border: 3px solid #a5f;
 text-align: left;
 padding: 50px,50px,50px,50px;
+background-color: aqua;
 }
 
-th {background-color: #dddddd;
+th {background-color: #f9f
 }
