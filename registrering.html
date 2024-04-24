@@ -19,35 +19,54 @@
 <main>
 <form action="registrering.php" method="post">
 
-<label for="username">Brukernavn</label>
+<div class="form-group">
+<label for="username">Brukernavn:</label>
 <input type="text" id="username" name="username" pattern=".{6,}" title="Minst 6 bokstaver" required>
+</div>
 
-<label for="password">Passord</label>
+<div class="form-group">
+<label for="password">Passord:</label>
 <input type="password" name="password" id="password" required pattern=".{8,16}(?=.*[A-Z])(?=.*[!])" title="Må være minst 8-16 bokstaver, minst en stor bokstav og ett utropstegn">
+</div>
 
-<label for="firstname">Fornavn</label>
+<div class="form-group">
+<label for="firstname">Fornavn:</label>
 <input type="text" name="firstname" id="firstname" required>
+</div>
 
-<label for="lastname">Etternavn</label>
+<div class="form-group">
+<label for="lastname">Etternavn:</label>
 <input type="text" name="lastname" id="lastname" required>
+</div>
 
-<label for="address">Adresse</label>
+<div class="form-group">
+<label for="address">Adresse:</label>
 <input type="text" name="address" id="address" required>
+</div>
 
-<label for="postalcode">Postnummer</label>
+<div class="form-group">
+<label for="postalcode">Postnummer:</label>
 <input type="text" name="postalcode" id="postalcode" pattern=".*\d{4,}.*" title="Må inneholde minst fire siffer" required>
+</div>
 
-<label for="phonenumber">Telefonnummer</label>
+<div class="form-group">
+<label for="phonenumber">Telefonnummer:</label>
 <input type="text" name="phonenumber" id="phonenumber" pattern=".*\d{4,}.*" title="Må inneholde minst fire siffer" required>
+</div>
 
-<label for="email">E-post</label>
+<div class="form-group">
+<label for="email">E-post:</label>
 <input type="text" name="email" id="email" pattern=".*@.*" title="Må inneholde en @" required>
+</div>
 
-<label for="date">Dato</label>
+<div class="form-group">
+<label for="date">Dato:</label>
 <input type="date" name="date" id="date">
+</div>
 
-<button type="submit">Registrer deg nå</button>
+  <button type="submit">Registrer deg nå</button>
 </form>
+
 </main>
 
 <footer></footer>
